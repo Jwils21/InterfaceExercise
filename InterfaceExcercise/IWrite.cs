@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InterfaceExcercise {
-	interface Iprint {
-		void Print(string s);
-		void PrintAll(string[] strings);
-		void Test();
+	interface IWrite {
+		void Write(string s);
 	}
 }

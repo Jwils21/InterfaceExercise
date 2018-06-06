@@ -5,7 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InterfaceExcercise {
-	class Diagnostic: Iprint {
+	class Diagnostic: Iprint, IWrite {
+
+
+		public void Write(string s) {
+
+		}
+
 		public void Print(string s) {
 			System.Diagnostics.Debug.WriteLine(s);
 		}
@@ -14,6 +20,10 @@ namespace InterfaceExcercise {
 			foreach(string str in strings) {
 				Print(str);
 			};
+		}
+
+		public void Test() {
+			throw new NotImplementedException();
 		}
 	}
 }

@@ -15,5 +15,9 @@ namespace InterfaceExcercise {
 				Print(str);
 			};
 		}
+
+		public void Test() {
+			throw new NotImplementedException();
+		}
 	}
 }

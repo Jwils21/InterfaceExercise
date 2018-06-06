@@ -9,6 +9,8 @@ namespace InterfaceExcercise {
 		static void Main(string[] args) {
 			Iprint printer = new Diagnostic();
 			printer.Print("A single string to the console");
+
+			IWrite writer = new Diagnostic();
 			
 
 		}

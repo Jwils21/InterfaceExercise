@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="Console.cs" />
     <Compile Include="Diagnostic.cs" />
+    <Compile Include="Interface1.cs" />
     <Compile Include="Iprint.cs" />
+    <Compile Include="IWrite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
