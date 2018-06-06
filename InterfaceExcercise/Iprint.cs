@@ -5,12 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InterfaceExcercise {
-	class Program {
-		static void Main(string[] args) {
-			Iprint printer = new Diagnostic();
-			printer.Print("A single string to the console");
-			
+	interface Iprint {
+		void Print(string s);
+		void PrintAll(string[] strings);
 
-		}
 	}
 }
